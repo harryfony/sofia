@@ -5,7 +5,6 @@ ENV REMOTE_FOLDER="huggingface:baihu"
 
 RUN apt-get update && apt-get install -y \
     jq \
-    xvfb \
     curl \
     unzip \
     sshpass \
