@@ -1,7 +1,7 @@
 # sofia   
 ADMIN_PASSWORD:  
 PORT:8052  
-RCLONE_CONF:
+RCLONE_CONF:  
 REMOTE_FOLDER:  
 
 Aoto up
