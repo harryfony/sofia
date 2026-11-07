@@ -1,16 +1,4 @@
 
-# 设置Playwright环境 使用chrome
-# python -m pip install playwright
-# python -m playwright install-deps
-# python -m playwright install chrome
-# 弃用Playwright改用cloakbrowser
-python -m pip install cloakbrowser
-python -m cloakbrowser install
-python -m cloakbrowser info
-python -m playwright install-deps
-# 创建虚拟显示环境 如需调用export DISPLAY=:99
-Xvfb :99 -screen 0 1920x1080x24 &
-
 npm install pm2 -g
 #开启白虎服务
 pm2 start "./baihu server" --name baihu
