@@ -147,8 +147,8 @@ jobs:
           push: true
 
           tags: |
-            ghcr.io/${{ steps.lower-repo.outputs.repository }}/bryce:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/bryce:latest
+            ghcr.io/${{ steps.lower-repo.outputs.repository }}/bryce-sp:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/bryce-sp:latest
 
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
