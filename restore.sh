@@ -92,4 +92,6 @@ else
     echo "没有检测到Rclone配置信息"
 fi
 
+echo "Baihu  部署完成"
+
 tail -f /dev/null
