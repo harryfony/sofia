@@ -92,6 +92,6 @@ else
     echo "没有检测到Rclone配置信息"
 fi
 
-echo "Baihu  部署完成"
+echo "Baihu  successful 🎉"
 
 tail -f /dev/null
