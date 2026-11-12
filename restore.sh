@@ -3,7 +3,7 @@
 
 # 获取 Baihu 实际监听端口
 BAIHU_PORT="${BH_SERVER_PORT:-${PORT:-8052}}"
-BAIHU_URL="http://127.0.0.1:${BAIHU_PORT}"
+BAIHU_URL="http://localhost:${BAIHU_PORT}"
 
 echo "======================================"
 echo "Baihu 启动与恢复"
